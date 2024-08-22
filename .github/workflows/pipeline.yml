@@ -11,9 +11,9 @@ jobs:
     name: Gold Image NGINX
     runs-on: ubuntu-20.04
     env:
-       # so that we can use InSpec without manually accepting the license
+      # so that we can use InSpec without manually accepting the license
       CHEF_LICENSE: accept  
-       # path to our profile                   
+      # path to our profile                   
       PROFILE: my_nginx                        
     steps:
       # updating all dependencies is always a good start
